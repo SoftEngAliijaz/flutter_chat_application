@@ -29,7 +29,6 @@ class _LoginScreenState extends State<LoginScreen> {
       icon: "person.svg",
       id: 2,
     ),
-
     ChatModel(
       name: "Collins",
       isGroup: false,
@@ -38,7 +37,6 @@ class _LoginScreenState extends State<LoginScreen> {
       icon: "person.svg",
       id: 3,
     ),
-
     ChatModel(
       name: "Balram Rathore",
       isGroup: false,
@@ -47,14 +45,6 @@ class _LoginScreenState extends State<LoginScreen> {
       icon: "person.svg",
       id: 4,
     ),
-
-    // ChatModel(
-    //   name: "NodeJs Group",
-    //   isGroup: true,
-    //   currentMessage: "New NodejS Post",
-    //   time: "2:00",
-    //   icon: "group.svg",
-    // ),
   ];
   @override
   Widget build(BuildContext context) {
